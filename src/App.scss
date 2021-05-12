@@ -172,7 +172,7 @@ p {
 }
 
 img {
-	width: calc(100vh * 0.5);
+	width: calc(100vh * 0.4);
 	border-radius: 30px;
 }
 
@@ -180,17 +180,14 @@ img {
 	align-items: center;
 	justify-content: center;
 	display: flex;
-
-	-webkit-transition: ease-out 1s;
-	transition: ease-out 1s;
 }
 
 .fade-in {
-	animation: fadeIn ease 5s;
-	-webkit-animation: fadeIn ease 5s;
-	-moz-animation: fadeIn ease 5s;
-	-o-animation: fadeIn ease 5s;
-	-ms-animation: fadeIn ease 5s;
+	animation: fadeIn ease 8s;
+	-webkit-animation: fadeIn ease 8s;
+	-moz-animation: fadeIn ease 8s;
+	-o-animation: fadeIn ease 8s;
+	-ms-animation: fadeIn ease 8s;
 }
 @keyframes fadeIn {
 	0% {
