@@ -15,11 +15,11 @@ function App() {
 
     // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
     const textArray = [
-      "Pergi belanja buat beli buah [cakeep], Buah dibeli buat makan barengan|Alhamdulillah, Kite sampe di hari kemenangan",
+      "Pergi belanja buat beli buah [cakeep], Buah dibeli buat makan barengan|Alhamdulillah, Kite sampe di hari kemenangan!",
       "Coba lagi ya...",
       "Nyak babe lagi duduk berdua, Liatin anak perjakanye yang masih bujangan|Yuk sama-sama doa, Semoga kite ketemu lagi sama Ramadhan tahun depan",
       "Terakhir nih terakhir....",
-      "Ketupat sayur mantap aromanya, Mantap terasa saat dinikmatin|Akhir kata, Mohon maaf lahir dan batin",
+      "Ketupat sayur mantap aromanya, Lebih mantep pas dinikmatin|Akhir kata, Saya mengucapkan mohon maaf lahir dan batin",
     ];
 
     // Speed (in milliseconds) of typing.
@@ -164,7 +164,16 @@ function App() {
           </div>
 
           <div className="wrap-img fade-in">
-            <img src="ied.jpg" alt="ied" />
+            <div>
+              <div className="wrap-img">
+                <img src="ied.jpg" alt="ied" />
+              </div>
+
+              <div className="text-name">
+                Selamat hari raya Idul Fitri 1442 H, Mohon maaf lahir dan batin. Salam, Ahmad Ichsan Baihaqi
+              </div>
+            </div>
+
           </div>
         </>
       )}
