@@ -16,10 +16,10 @@ function App() {
     // Typerwrite text content. Use a pipe to indicate the start of the second line "|".
     const textArray = [
       "Pergi belanja buat beli buah [cakeep], Buah dibeli buat makan barengan|Alhamdulillah, Kite sampe di hari kemenangan",
-      // "Coba lagi ya...",
-      // "Nyak babe lagi duduk berdua, Liatin anak perjakanye yang masih bujangan|Yuk sama-sama doa, Semoga kite ketemu lagi sama Ramadhan tahun depan",
-      // "Terakhir nih terakhir....",
-      // "Ketupat sayur mantap aromanya, Mantap terasa saat dinikmatin|Akhir kata, Mohon maaf lahir dan batin",
+      "Coba lagi ya...",
+      "Nyak babe lagi duduk berdua, Liatin anak perjakanye yang masih bujangan|Yuk sama-sama doa, Semoga kite ketemu lagi sama Ramadhan tahun depan",
+      "Terakhir nih terakhir....",
+      "Ketupat sayur mantap aromanya, Mantap terasa saat dinikmatin|Akhir kata, Mohon maaf lahir dan batin",
     ];
 
     // Speed (in milliseconds) of typing.
@@ -69,8 +69,7 @@ function App() {
         } else if (i === aString.length) {
           isBackspacing = true;
 
-          // if (a === 4) {
-          if (a === 0) {
+          if (a === 4) {
             setFireWorkDisplayed(true);
             return;
           }
